@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-y: scroll;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.homepage {
+    background-image: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)),url(homepage.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.frankfort-page {
+    background-image: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)),url(frankfort.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+.louisville-page {
+    background-image: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)),url(louisville.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;  
+}
+
+.lexington-page {
+    background-image: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)),url(lexington.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;  
+}
+
+.contact {
+    background-image: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)),url(derby.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+}
+
+header {
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.citycontent img {
+    width: auto;
+    height: 128px;
+    margin-bottom: 10px;
+}
+
+.citycontent h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.citycontent p {
+    font-size: 1.2em;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    padding: 10px;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.navbar a:hover {
+    background-color: #003366;
+    border-radius: 5px;
+}
+
+.cityinfo {
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 600px;
+    text-align: center;
+}
+
+.cityinfo h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.cityinfo ol {
+    color: white;
+    list-style-position: inside;
+    text-align: left;
+}
+
+.submit button {
+    background-color: #004d99;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit button:hover {
+    background-color: gray;
+}
+
+aside {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    color: white;
+}
+
+.cityfact img {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+.cityfact ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: white;
+}
+
+.cityfact li a {
+    color: white;
+}
+
+.table {
+    table-layout: fixed;
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    color: white;
+    border: 1px solid; 
+}
+
+.cityimage {
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+    }
+
+    .navbar li {
+        margin: 10px 0;
+    }
+
+    .cityinfo, aside, .table {
+        width: 90%;
+        max-width: 100%;
+    }
+}
+
+.notification-box {
+    float: right;
+    background-color: rgba(255, 255, 0, .75); 
+    color: black; 
+    padding: 2px;
+    border-radius: 5px; 
+    font-weight: bold; 
+}
+
+.nav-container {
+    position: relative;
+}
+
+.decorative-line {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%;
+}
+
+#decorativeLine {
+    height: 5px; 
+    background-color: #003366;
+    margin: 20px 0;
+}
+
+footer {
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
